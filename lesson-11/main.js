@@ -11,7 +11,7 @@ const port = 3000,
     errorController = require('./controllers/errorController'),
     app = express();
 
-// 2. 앱 설정 (set 함수, 그 다음에 use 함수)
+// 2. 앱 설정 (set 함수, 그 다음에 use 함수) 
 app.set("port", process.env.PORT || port);
 app.set("view engine", "ejs");
 

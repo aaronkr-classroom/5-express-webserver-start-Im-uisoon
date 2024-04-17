@@ -9,7 +9,7 @@ exports.respondWithName1 = (req, res) => {
 }
 
 /**
- * Listing 10.3
+ * Listing 10.3 
  */
 exports.getHome = (req, res) => { res.render('index', {
     name: "Sarah",
